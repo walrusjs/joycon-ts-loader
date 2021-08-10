@@ -15,7 +15,6 @@
     "release": "walrus release"
   },
   "dependencies": {
-    "test": "^0.6.0",
     "ts-node": "10.2.0"
   },
   "devDependencies": {

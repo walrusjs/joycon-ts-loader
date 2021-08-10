@@ -5,7 +5,7 @@ import { resolve } from 'path';
 import JoyConTSLoader from '../lib';
 
 const joycon = new JoyCon({
-	cwd: resolve(__dirname, './fixture'),
+	cwd: resolve(__dirname, './fixtures'),
 	stopDir: __dirname
 });
 
