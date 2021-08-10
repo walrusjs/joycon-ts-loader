@@ -1,0 +1,32 @@
+{
+  "name": "@walrus/joycon-ts-loader",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "git@github.com:walrusjs/joycon-ts-loader.git",
+  "author": "wangxingkang <wang_xingkang@qq.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "walrus-test",
+    "release": "walrus release"
+  },
+  "dependencies": {
+    "test": "^0.6.0",
+    "ts-node": "10.2.0"
+  },
+  "devDependencies": {
+    "@walrus/cli": "^1.3.4",
+    "@walrus/plugin-release": "^1.13.0",
+    "@walrus/test": "^1.3.0",
+    "joycon": "3.0.1",
+    "typescript": "4.3.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
